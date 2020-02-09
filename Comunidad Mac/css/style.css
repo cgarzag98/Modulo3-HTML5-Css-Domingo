@@ -1,6 +1,6 @@
 * {
-  margin:0px;
-  padding:0px;
+  margin:0%;
+  padding:0%;
   box-sizing: border-box;
 }
 html, body{
@@ -12,7 +12,7 @@ a{
   text-decoration: none;
 }
 h1{
-  padding-bottom: 20px;
+  padding-bottom: 10%;
   color: black;
 }
 h2{
@@ -26,34 +26,34 @@ h2{
 }
 #welcome {
   background: url('../imagenes/i1.jpg') no-repeat center center/cover;
-height: 450px;
+height: 200%;
 }
 #welcome2 {
   background: url('../imagenes/mac3.jpg') no-repeat center center/cover;
-height: 500px;
+height: 250%;
 }
 #welcome3 {
   background: url('../imagenes/jem.jpg') no-repeat center center/cover;
-height: 500px;
+height: 200%;
 }
 #welcome4 {
   background: url('../imagenes/pescador.jpg') no-repeat center center/cover;
-height: 500px;
+height: 200%;
 }
 p{
-  margin: 10px 0;
+  margin: 5% 0;
 }
 /*Clases General*/
 /*Container mantendrá el contenido centrado y con un máximo de ancho*/
 .container{
   margin: auto;
-  max-width: 1100px;
+  max-width: 500%;
   overflow: auto;
 
 }
 #header {
   margin:auto;
-  width:500px;
+  width:200%;
   font-family:Arial, Helvetica, sans-serif;
   align:right;
   float: right;
@@ -64,7 +64,7 @@ ul, ol {
 }
 
 .nav {
-  width:500px; /*Le establecemos un ancho*/
+  width:200%; /*Le establecemos un ancho*/
   margin:0 auto; /*Centramos automaticamente*/
   align: right;
 }
@@ -77,7 +77,7 @@ ul, ol {
   background-color:white;
   color:black;
   text-decoration:none;
-  padding:10px 12px;
+  padding:5% 6%;
   display:block;
   align: right;
 }
@@ -89,7 +89,7 @@ ul, ol {
 .nav li ul {
   display:none;
   position:absolute;
-  min-width:140px;
+  min-width:70%;
 }
 
 .nav li:hover > ul {
@@ -101,12 +101,12 @@ ul, ol {
 }
 
 .nav li ul li ul {
-  right:-140px;
+  right:-70%;
   top:0px;
 }
 #navbar h1{
   float: left;
-  padding-top: 20px;
+  padding-top: 10%;
 }
 .bg-dark{
   background: orange;
@@ -127,28 +127,28 @@ ul, ol {
   text-align: center;
   background: lightgray;
   color: black;
-  padding: 20px;
+  padding: 10%;
 }
 
 
 
 
   #contact-form .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 10%;
   text-decoration-color: black;
 }
 #contact-form label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 2%;
 }
 #contact-form input,
 #contact-form textarea {
   width: 100%;
-  padding: 10px;
-  border: 1px #ddd solid;
+  padding: 5%;
+  border: 1% #ddd solid;
 }
 #contact-form textarea {
-  height: 200px;
+  height: 100%;
 }
 #contact-form input:focus,
 #contact-form textarea:focus {
@@ -157,9 +157,9 @@ ul, ol {
 }
 .container {
   margin: auto;
-  max-width: 1100px;
+  max-width: 500%;
   overflow: auto;
-  padding: 0 20px;
+  padding: 0 10%;
 }
 .text-primary {
   color:#5BBF21;
@@ -168,14 +168,14 @@ ul, ol {
   color:#152ABC;
 }
 .lead {
-  font-size: 20px;
+  font-size: 10%;
 }
 .btn {
   display: inline-block;
-  font-size: 18px;
+  font-size: 9%;
   color: #fff;
   background: #215b33;
-  padding: 13px 20px;
+  padding: 6% 10%;
   border: none;
   cursor: pointer;
 }
@@ -197,16 +197,16 @@ ul, ol {
 .bg-primary {
   background: #5BBF21;
   color: #215b33;
-  font-size: 20px;
+  font-size: 10%;
 }
 .clr {
   clear: both;
 }
 .l-heading {
-  font-size: 40px;
+  font-size: 20%;
 }
 .l-heading1 {
-  font-size: 40px;
+  font-size: 20%;
   text-align: center;
   color: #dfe32a;
 }
